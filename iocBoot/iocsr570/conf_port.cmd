@@ -1,0 +1,6 @@
+asynOctetSetInputEos("$(PORT)", -1, "\r\n")
+asynOctetSetOutputEos("$(PORT)", -1, "\r\n")
+asynSetTraceIOMask("$(PORT)", -1, 0)
+asynSetTraceMask("$(PORT)", -1, 0)
+# asynSetTraceIOMask("$(PORT)", -1, 0x2)
+# asynSetTraceMask("$(PORT)", -1, 0x9)
